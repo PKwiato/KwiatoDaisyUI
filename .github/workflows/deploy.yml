@@ -23,7 +23,7 @@ jobs:
 
       - name: 🛠 Build Angular app
         run: |
-          npm run build -- --base-href="/KwiatoDaisyUI/"
+          npm run build -- --base-href="/"
           cp dist/kwiato-daisy-ui/browser/index.html dist/kwiato-daisy-ui/browser/404.html
 
       - name: 🚀 Deploy to GitHub Pages
