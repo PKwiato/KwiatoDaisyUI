@@ -2,12 +2,13 @@ import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { FooterComponent } from "./core/layout/footer/footer.component";
 import { HomeComponent } from './core/layout/home/home.component';
-import { NavibarComponent } from './core/layout/navibar/navibar/navibar.component';
+import { NavibarComponent } from './core/layout/navibar/navibar.component';
+import { ExperienceComponent } from './core/layout/experience/experience.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, FooterComponent, HomeComponent, NavibarComponent],
+  imports: [RouterOutlet, FooterComponent, HomeComponent, NavibarComponent, ExperienceComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
