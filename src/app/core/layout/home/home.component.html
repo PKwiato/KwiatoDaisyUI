@@ -1,4 +1,4 @@
-<div id="home" class="hero bg-base-200 min-h-screen relative pb-20 sm:pb-0">
+<div id="home" class="hero bg-base-200 min-h-screen relative pt-16 sm:pt-0 pb-20 sm:pb-0">
     <div class="hero-content flex-col lg:flex-row text-center items-center">
         <img src="assets/me.png" alt="Moje zdjęcie" class="w-40 sm:w-56 md:w-72 lg:max-w-sm h-auto rounded-lg shadow-2xl">
       <div class="max-w-md">
@@ -12,6 +12,7 @@
       <a
         href="https://www.linkedin.com/in/piotrkwiatkowski84/"
         target="_blank"
+        rel="noopener noreferrer"
         class="btn btn-outline btn-primary"
       >
         LinkedIn
@@ -19,6 +20,7 @@
       <a
       href="https://github.com/PKwiato/KwiatoDaisyUI"
       target="_blank"
+      rel="noopener noreferrer"
       class="btn btn-outline btn-primary"
     >
         Github
@@ -28,8 +30,8 @@
   </div>
   <div 
     [class.opacity-0]="!isScrollIconVisible" 
-    class="absolute bottom-4 sm:bottom-10 left-1/2 -translate-x-1/2 animate-bounce transition-opacity duration-500 ease-in-out">
-    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+    class="absolute safe-bottom left-1/2 -translate-x-1/2 animate-bounce transition-opacity duration-500 ease-in-out">
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6" aria-hidden="true">
       <path stroke-linecap="round" stroke-linejoin="round" d="m9 12.75 3 3m0 0 3-3m-3 3v-7.5M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
     </svg>
   </div>
